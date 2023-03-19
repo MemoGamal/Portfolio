@@ -16,8 +16,7 @@ TextStyle _getTextStyle(
 }
 
 // Regular Style..
-TextStyle getRegularStyle(
-    {double fontsize = FontSize.s12, required Color color}) {
+TextStyle getRegularStyle({required double fontsize, required Color color}) {
   return _getTextStyle(
     fontsize,
     FontWeightManager.regular,
@@ -26,7 +25,7 @@ TextStyle getRegularStyle(
 }
 
 // Bold Style..
-TextStyle getBoldStyle({double fontsize = FontSize.s12, required Color color}) {
+TextStyle getBoldStyle({required double fontsize, required Color color}) {
   return _getTextStyle(
     fontsize,
     FontWeightManager.bold,
@@ -35,8 +34,7 @@ TextStyle getBoldStyle({double fontsize = FontSize.s12, required Color color}) {
 }
 
 // Semi-Bold Style..
-TextStyle getSemiBoldStyle(
-    {double fontsize = FontSize.s12, required Color color}) {
+TextStyle getSemiBoldStyle({required double fontsize, required Color color}) {
   return _getTextStyle(
     fontsize,
     FontWeightManager.semiBold,
@@ -46,8 +44,7 @@ TextStyle getSemiBoldStyle(
 
 // Medium Style..
 
-TextStyle getMediumStyle(
-    {double fontsize = FontSize.s12, required Color color}) {
+TextStyle getMediumStyle({required double fontsize, required Color color}) {
   return _getTextStyle(
     fontsize,
     FontWeightManager.medium,
@@ -57,10 +54,9 @@ TextStyle getMediumStyle(
 
 // Light Style..
 
-TextStyle getLightStyle(
-    {double fontsize = FontSize.s12, required Color color}) {
+TextStyle getLightStyle({required double fontsize, required Color color}) {
   return _getTextStyle(
-    fontsize,
+    fontsize = FontSize.s12,
     FontWeightManager.light,
     color,
   );

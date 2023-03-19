@@ -51,21 +51,23 @@ ThemeData GetApplicationTheme() {
 
     textTheme: TextTheme(
       displayLarge: getSemiBoldStyle(
-          color: ColorManager.whiteColour, fontsize: FontSize.s20),
+          color: ColorManager.whiteColour, fontsize: FontSize.s30),
       headlineLarge: getSemiBoldStyle(
-          color: ColorManager.bigTextColour, fontsize: FontSize.s16),
+          color: ColorManager.whiteColour, fontsize: FontSize.s60),
       headlineMedium: getRegularStyle(
-          color: ColorManager.whiteColour, fontsize: FontSize.s14),
+          color: ColorManager.whiteColour, fontsize: FontSize.s20),
       titleMedium: getMediumStyle(
-          color: ColorManager.smalltextColour, fontsize: FontSize.s16),
+          color: ColorManager.bigTextColour, fontsize: FontSize.s30),
       titleSmall: getRegularStyle(
           color: ColorManager.smalltextColour, fontsize: FontSize.s16),
-      bodyLarge: getRegularStyle(color: ColorManager.smalltextColour),
-      bodySmall: getRegularStyle(color: ColorManager.smalltextColour),
+      bodyLarge: getRegularStyle(
+          color: ColorManager.smalltextColour, fontsize: FontSize.s18),
+      bodySmall: getRegularStyle(
+          color: ColorManager.smalltextColour, fontsize: FontSize.s16),
       bodyMedium: getRegularStyle(
           color: ColorManager.smalltextColour, fontsize: FontSize.s12),
-      labelSmall: getBoldStyle(
-          color: ColorManager.smalltextColour, fontsize: FontSize.s12),
+      labelSmall:
+          getBoldStyle(color: ColorManager.blackColor, fontsize: FontSize.s30),
     ),
 
     // Input Decoration Theme:

@@ -12,4 +12,5 @@ class ColorManager {
   static const yearsOfExperienceTextColour = Color(0xffdb9dfc);
   static const greyContainerBorder = Color(0xfff0f0f0);
   static const halfBlueConatinerColour = Color(0xffe8f0f9);
+  static const blackColor = Colors.black;
 }

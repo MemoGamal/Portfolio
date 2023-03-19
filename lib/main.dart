@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mywebsite_portfolio/Presentation/resources/injections.dart';
 
 import 'Presentation/MainScreen/view/MainScreenView.dart';
 
@@ -11,9 +12,10 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: MainScreenView(),
+      actions: init(),
+      home: const MainScreenView(),
     );
   }
 }

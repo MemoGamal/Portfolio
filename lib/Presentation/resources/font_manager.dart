@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mywebsite_portfolio/Presentation/resources/responsive_design.dart';
 
 class FontConstants {
   static const String fontFamily = "Montserrat";
@@ -13,10 +14,13 @@ class FontWeightManager {
 }
 
 class FontSize {
-  static const double s12 = 12.0;
-  static const double s14 = 14.0;
-  static const double s16 = 16.0;
-  static const double s18 = 18.0;
-  static const double s20 = 20.0;
-  static const double s22 = 22.0;
+  static double s12 = getWidthinPixels(12);
+  static double s14 = getWidthinPixels(14);
+  static double s16 = getWidthinPixels(16);
+  static double s18 = getWidthinPixels(18);
+  static double s20 = getWidthinPixels(20);
+  static double s22 = getWidthinPixels(22);
+  static double s30 = getWidthinPixels(30);
+  static double s40 = getWidthinPixels(40);
+  static double s60 = getWidthinPixels(60);
 }
