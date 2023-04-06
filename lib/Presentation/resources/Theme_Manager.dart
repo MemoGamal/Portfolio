@@ -5,7 +5,7 @@ import 'package:mywebsite_portfolio/Presentation/resources/styles_manager.dart';
 
 import 'Font_Manager.dart';
 
-ThemeData GetApplicationTheme() {
+ThemeData getApplicationTheme() {
   return ThemeData(
     primaryColor: ColorManager.whiteColour,
     primaryColorDark: ColorManager.bigTextColour,
@@ -74,7 +74,7 @@ ThemeData GetApplicationTheme() {
 
     inputDecorationTheme: InputDecorationTheme(
       // Content Padding..
-      contentPadding: const EdgeInsets.all(AppPading.p8),
+      contentPadding: EdgeInsets.all(AppPading.p8),
       // Hint Style: ..
       hintStyle: getRegularStyle(
           color: ColorManager.smalltextColour, fontsize: FontSize.s14),

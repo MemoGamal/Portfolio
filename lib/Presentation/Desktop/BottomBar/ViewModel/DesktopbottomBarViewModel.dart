@@ -1,14 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:mywebsite_portfolio/Presentation/resources/assets_manager.dart';
+import 'package:mywebsite_portfolio/Presentation/resources/responsive_design.dart';
 
-import '../../resources/strings_manager.dart';
+import '../../../resources/strings_manager.dart';
 
 class BottomBarViewModel extends GetxController {
   int selectedIndex = 0;
   Widget hover = Image.asset(
     Assets.hoverIMG,
-    scale: 2,
+    fit: BoxFit.fill,
   );
   List<String> items = [
     StringManager.home,

@@ -11,5 +11,9 @@ class StringManager {
   static const String aboutMyStory = "About\nMy Story";
   static const String mySignature = "AbuElTfatef..TFTF";
   static const String myStory =
-      "Hard-Worker Developer Passionate about Coding!Hard-Worker Developer Passionate about Coding!Hard-Worker Developer Passionate about Coding!Hard-Worker Developer Passionate about Coding!Hard-Worker Developer Passionate about Coding!";
+      "My Name is Mostafa Gamal 21 Years and i'm Hard-Worker Developer Passionate about Coding!";
+  static const String myYearsOfExperience = "01";
+  static const String myYearsOfExperienceText = "My Years Of Experience";
+  static const String aboutMyExperience =
+      "I've been dedicating my time and effort in the last year to learn more and more about flutter.";
 }

@@ -1,7 +1,18 @@
-import 'package:flutter/widgets.dart';
+import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 class ResponsiveDesign {
+  static bool isIOSSystem(BuildContext context) =>
+      Theme.of(context).platform == TargetPlatform.iOS;
+  static bool isWindowsSystem(BuildContext context) =>
+      Theme.of(context).platform == TargetPlatform.windows;
+  static bool isMacSystem(BuildContext context) =>
+      Theme.of(context).platform == TargetPlatform.macOS;
+  static bool isAndroid(BuildContext context) =>
+      Theme.of(context).platform == TargetPlatform.android;
+  static bool isLinuxSystem(BuildContext context) =>
+      Theme.of(context).platform == TargetPlatform.linux;
+
   static bool isDesktop(BuildContext context) =>
       MediaQuery.of(context).size.width >= 1024;
 

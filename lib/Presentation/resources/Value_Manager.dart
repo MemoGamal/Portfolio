@@ -1,3 +1,5 @@
+import 'package:mywebsite_portfolio/Presentation/resources/responsive_design.dart';
+
 class AppMargin {
   static const double m8 = 8.0;
   static const double m10 = 10.0;
@@ -10,16 +12,17 @@ class AppMargin {
 }
 
 class AppPading {
-  static const double p8 = 8.0;
-  static const double p10 = 10.0;
-  static const double p12 = 12.0;
-  static const double p14 = 14.0;
-  static const double p16 = 16.0;
-  static const double p18 = 18.0;
-  static const double p20 = 20.0;
-  static const double p22 = 22.0;
-  static const double p40 = 40.0;
-  static const double p50 = 50.0;
+  static double p8 = getWidthinPixels(8.0);
+  static double p10 = getWidthinPixels(10.0);
+  static double p12 = getWidthinPixels(12.0);
+  static double p14 = getWidthinPixels(14.0);
+  static double p16 = getWidthinPixels(16.0);
+  static double p18 = getWidthinPixels(18.0);
+  static double p20 = getWidthinPixels(20.0);
+  static double p22 = getWidthinPixels(22.0);
+  static double p40 = getWidthinPixels(40.0);
+  static double p50 = getWidthinPixels(50.0);
+  static double p70 = getWidthinPixels(70.0);
 }
 
 class AppSize {

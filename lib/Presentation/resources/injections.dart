@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import 'package:mywebsite_portfolio/Presentation/BottomBar/ViewModel/bottomBarViewModel.dart';
+import 'package:mywebsite_portfolio/Presentation/Desktop/BottomBar/ViewModel/DesktopbottomBarViewModel.dart';
 import 'package:mywebsite_portfolio/Presentation/resources/constants.dart';
 
 class Injections {
