@@ -20,6 +20,7 @@ class AppPading {
   static double p18 = getWidthinPixels(18.0);
   static double p20 = getWidthinPixels(20.0);
   static double p22 = getWidthinPixels(22.0);
+  static double p30 = getWidthinPixels(30.0);
   static double p40 = getWidthinPixels(40.0);
   static double p50 = getWidthinPixels(50.0);
   static double p70 = getWidthinPixels(70.0);
@@ -43,4 +44,14 @@ class AppSize {
   static const double s50 = 50.0;
   static const double s80 = 80.0;
   static const double s100 = 100.0;
+}
+
+class AnimatePosition {
+  // P->pixels..
+  static const double p300 = 300;
+}
+
+class Animatetimer {
+  // t->timer..
+  static const int t300 = 300;
 }

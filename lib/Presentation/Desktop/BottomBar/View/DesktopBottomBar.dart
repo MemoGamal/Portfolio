@@ -29,7 +29,7 @@ class _BottomBarState extends State<BottomBar> {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: List.generate(
-          Constants.bottomBarItemsCount,
+          4,
           (index) {
             return TextButton(
               onPressed: () {},

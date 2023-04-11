@@ -18,7 +18,17 @@ class ColorManager {
   static const yearsOfExperienceNumberColour = Color(0xFFDFA3FF);
   static const yearsOfExperienceNumberBorderColour = Color(0xFFA600FF);
 
+// #e8f0f9
   static const greyContainerBorder = Color(0xfff0f0f0);
   static const halfBlueConatinerColour = Color(0xffe8f0f9);
   static const blackColor = Colors.black;
+  static const List<Color> serviceCardColours = [
+    Color(0xFFD9FFFC),
+    Color(0xFFE4FFC7),
+    Color(0xFFFFF3DD),
+    Color(0xFFFFE0E0),
+  ];
+  static Color recentWorkImageBgColour =
+      const Color(0xFFF7E8FF).withOpacity(0.3);
+      // #e8f0f9
 }

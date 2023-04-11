@@ -84,8 +84,6 @@ class Constants {
   static double bottomBarBorderRadius = 10;
   static double bottomBarBorderPadding = AppPading.p20;
 
-  static int bottomBarItemsCount = 5;
-
   // Animation
   static int animationHoverDuration = 2;
   static int animationSelectedHoverDuration = 200;

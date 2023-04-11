@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:mywebsite_portfolio/Presentation/resources/Value_Manager.dart';
-import 'package:mywebsite_portfolio/Presentation/resources/constants.dart';
-import 'package:mywebsite_portfolio/Presentation/resources/responsive_design.dart';
 
-import '../../../../resources/Theme_Manager.dart';
-import '../../../../resources/strings_manager.dart';
+import '../../../resources/Theme_Manager.dart';
+import '../../../resources/strings_manager.dart';
 
 class TransparentText extends StatelessWidget {
   const TransparentText({super.key});
